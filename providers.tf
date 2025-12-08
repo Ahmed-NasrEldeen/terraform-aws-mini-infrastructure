@@ -9,10 +9,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "mini-infra-tf-state"
-    key            = "mini-infra/terraform.tfstate"
-    region         = "eu-west-1"
-    encrypt        = true
+    bucket  = "mini-infra-tf-state"
+    key     = "mini-infra/terraform.tfstate"
+    region  = "eu-west-1"
+    encrypt = true
   }
 }
 
